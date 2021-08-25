@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .bgimg {
   padding: 0;
   margin: 0;
@@ -98,6 +99,10 @@
 /* contact us form */
 .contactUs {
   margin-top: 100px;
+}
+/* Career page */
+.careermessage {
+  margin-top: 50px;
 }
 
 /* Footer */
