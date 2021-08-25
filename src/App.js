@@ -1,25 +1,35 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import Navbar from './components/Navbar';
+import Courses from './components/Courses';
+import Placements from './components/Placements';
+import Faculty from './components/Faculty';
+import Contactus from './components/Contactus';
+import {Route,Switch} from 'react-router-dom';
+import OnlyNav from './components/onlyNav';
+import Workshops from "./components/WorkShops";
+import Jobs from "./components/Jobs";
 
+import Home from "./Home";
+import "./App.css";
+import Career from './components/Career';
+import Projects from './components/Projects';
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+    
+      <Switch>
+        <Route exact path="/" component={Home}></Route>
+        <Route exact path="/Courses" component={Courses}></Route>
+        <Route exact path="/Career" component={Career}></Route>
+        <Route exact path="/Faculty" component={Faculty}></Route>
+        <Route exact path="/Workshops" component={Workshops}></Route>
+        <Route exact path="/Contactus" component={Contactus}></Route>
+        
+
+      </Switch>
+    </>
+  )
 }
 
-export default App;
+export default App
