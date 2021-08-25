@@ -1,5 +1,6 @@
 import React from "react";
 
+import { Link } from "react-router-dom";
 import OnlyNav from "./onlyNav";
 
 const Navbar = () => {
@@ -14,9 +15,12 @@ const Navbar = () => {
             <br />
             <h2 className="customFont">IT's NICE TO MEETYOU</h2>
             <h1 className="customFont">Welcome to our Edu-Tech</h1>
-            <button className="btn btn-warning btn-outline-info text-white btn-lg">
+            <Link
+              className="btn btn-warning btn-outline-info text-white btn-lg"
+              to="/Contactus"
+            >
               ContactUs
-            </button>
+            </Link>
           </div>
         </div>
       </div>
