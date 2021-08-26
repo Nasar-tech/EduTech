@@ -15,6 +15,8 @@ const Navbar = () => {
             <br />
             <h2 className="customFont">IT's NICE TO MEETYOU</h2>
             <h1 className="customFont">Welcome to our Edu-Tech</h1>
+            {/* Marquee texts */}
+
             <Link
               className="btn btn-warning btn-outline-info text-white btn-lg"
               to="/Contactus"

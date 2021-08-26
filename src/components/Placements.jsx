@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Placements = () => {
   return (
@@ -56,6 +57,8 @@ const Placements = () => {
                 </div>
               </div>
             </div>
+            <div></div>
+            <br></br>
 
             {/* <!-- Fourth Card --> */}
             <div class="col-sm-10 cardSet col-md-6 col-lg-4 col-xl-4 col-10 d-block m-auto">
@@ -93,12 +96,20 @@ const Placements = () => {
         </div>
         <div className="text-center m-5">
           <h3>
-            <hr className="w-25 mx-auto" />
-            Find More<i className="far fa-arrow-circle-right m-auto"></i>
-            <hr className="w-25 mx-auto" />
+            <Link to="/Contactus">
+              <hr className="w-25 mx-auto" />
+              Find More and Join with us{" "}
+              <i className="far fa-arrow-circle-right m-auto"></i>
+              <hr className="w-25 mx-auto" />
+            </Link>
           </h3>
         </div>
       </section>
+      <div></div>
+
+      <div>
+        <hr class="w-75 mx-auto" />
+      </div>
     </>
   );
 };

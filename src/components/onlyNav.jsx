@@ -38,11 +38,6 @@ const OnlyNav = () => {
               </Link>
             </li>
             <li className="nav-item mr-2">
-              <Link className="nav-link text-white" to="/Faculty">
-                <i className="fad fa-file-chart-line"></i> Faculty
-              </Link>
-            </li>
-            <li className="nav-item mr-2">
               <Link className="nav-link text-white" to="/Workshops">
                 <i className="fas fa-terminal"></i> Workshops
               </Link>

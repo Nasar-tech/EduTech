@@ -9,7 +9,7 @@ const Contactus = () => {
         <br></br>
         <div class="container mt-4">
           <h3 class="text-center">Contact Us</h3>
-          <hr class="w-25 mx-auto" />
+          {/* <hr class="w-25 mx-auto" /> */}
         </div>
         <div class="row contactUs">
           <div class="col-8 mx-auto bg-light">

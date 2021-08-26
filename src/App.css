@@ -13,6 +13,10 @@
   width: 100%;
   height: 95vh;
 }
+a {
+  text-decoration: none;
+  color: #333;
+}
 
 .navbar {
   overflow: hidden;
@@ -39,19 +43,26 @@
   font-size: 73px;
 }
 
-/* OurServices CSS  */
+/****************************************** our Courses CSS  */
 .ourServices {
   padding: 90px 50px;
   font-size: large;
   font-weight: 500;
 }
 .rowSetting {
-  margin: 80px 0px 10px;
+  margin: 0px;
 }
 .imgSetting {
   /* border-radius: 50%; */
   height: 100px;
   width: 100px;
+}
+a:hover {
+  color: aqua;
+}
+
+.imgSetting:hover {
+  color: aqua;
 }
 
 .rowSetting p {
@@ -64,8 +75,19 @@
   font-size: 30px;
   padding: 10px;
 }
+/* Future posts */
 
-/* About our placements */
+/* ***********************************************About Text */
+.AboutText {
+  text-align: justify;
+}
+.AboutusHeading {
+  display: inline;
+  width: 200px;
+  height: 200px;
+}
+
+/***************************************************** About our placements */
 .cardImage {
   margin: 30px 30px;
   width: 100%;
@@ -85,7 +107,7 @@
   padding: 0;
 }
 
-/* Faculty */
+/************************************************* Faculty */
 .faculty {
   margin-top: 110px;
 }
@@ -112,6 +134,17 @@
   line-height: 50px;
 }
 
+/******************************************* upcoming courses Marquee Tag */
+
+.AdvCard {
+  display: inline-block;
+  margin: 20px;
+}
+.marquee {
+  height: 100%;
+  width: 100%;
+  margin: 20px;
+}
 /* for Responsive ness */
 @media (min-width: 992px) {
   .headerset h2 {
